@@ -1,2 +1,1 @@
-# command-game
-Git Commands
+# Git Commands
