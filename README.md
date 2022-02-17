@@ -11,8 +11,8 @@ Ensure you created your GitHub account with <name>@dsa.tshimologong.joburg and y
   ```
   _! arguements explained_  
   `ssh-keygen` - This will generate a generic rsa encrypted keys type but want our connection to be secured with a different encryption.  
-  `-t ed25519` - Here we specify the type of the encryption method. We use `ed25519` as it is recommended over `rsa`    
-  `-C "email"` - This is a comment that we can logged from GitHub servers and will return the client that created the SSH keys  
+  `-t ed25519` - Here we specify the type of the encryption method. We use `ed25519` as it is recommended over `rsa`.    
+  `-C "email"` - This is a comment, it keeps track of the client that created the SSH keys.  
   
   Follow the prompts and leave the SSH keys location at default and ensure you password protect your SSH keys.
   
@@ -21,5 +21,10 @@ Ensure you created your GitHub account with <name>@dsa.tshimologong.joburg and y
   ```shell
   cat ~/.ssh/id_ed25519.pub
   ```
-
   
+  **Step 2 - Adding SSH keys to GitHub**
+  - Go to GitHub
+  - Click on your profile icon
+  - Click **Settings**
+  - Click **SSH and GPG keys**
+  - Paste the keys generated from Gitbash
