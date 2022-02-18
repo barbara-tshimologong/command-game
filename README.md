@@ -70,6 +70,8 @@ Ensure you created your GitHub account with "_name_@dsa.tshimologong.joburg" and
   
   _If you are adding your keys for the first time you will get a GitHub login window. _  
   
+  
+  ----
   **Step 4 - Associate your local git to your remote**  
   Now that GitHub is aware of our PC as a trusted source, we must configure our local git software to know of our identity and must associate our commit history with our name.  
   
@@ -83,7 +85,9 @@ Ensure you created your GitHub account with "_name_@dsa.tshimologong.joburg" and
   2 . Set up your name  
   ```shell
   git config --global user.name "<name>-tshimologong"
-  ```
+  ```  
+  ![name](https://user-images.githubusercontent.com/98871804/154656247-f583cab7-2980-4479-9aff-a150db28a5bd.png)
+
   
   ### git commit -m "Git and GitHub is set" -m "Good Luck" 
   
