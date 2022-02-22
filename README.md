@@ -1,7 +1,7 @@
-# Git Commands  
-Before we get started, head to [git-scm.com](https://git-scm.com) and download Gitbash.  
-Ensure you created your GitHub account with "_name_@dsa.tshimologong.joburg" and your username is "_name_-tshimologong"  
-  
+
+
+# Many thanks Phiwa, this  is excellent  
+
 ## 1 Linking our workstation to GitHub
 
   **Step 1 - Generating SSH keys** 
